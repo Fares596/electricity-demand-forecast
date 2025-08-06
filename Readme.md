@@ -52,19 +52,3 @@ Notebook: `notebook/modelisation.ipynb`
 - Visual comparison between actual and predicted values
 
 ---
-
-##  Project Structure
-
-```bash
-electricity-demand-forecast-rte/
-├── data/
-│   ├── rte_consommation_electrique_30min_fr.csv
-│   └── df_preprocessed.csv
-├── notebook/
-│   └── modelisation.ipynb
-├── model/
-│   └── model.pkl (optional export)
-├── utils/
-│   └── preprocessing.py
-├── prepare_data.py
-└── README.md
